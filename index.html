@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habiba fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/.png" href="/image/Habiba.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="top_div">
+        <img class="logo_img" src="./image/Habiba.png" alt="logo">
+        <h1>TAP Calculator</h1>
+        <h1>.</h1>
+    </div>
+
+    <div id="root">
+        <table>
+            <tr>
+                <td>ایک پیس پر کتنی تپ نکل رہی ہے۔ <br /> How many tap are coming out on one piece?</td>
+                <td><input type="number" placeholder="15" id="1_pcs_pr_kitni"></td>
+            </tr>
+            <tr>
+                <td>کل کتنے پیس ہیں <br /> How many parts is the total?</td>
+                <td><input type="number" placeholder="144" id="total_kitna_pcs"></td>
+            </tr>
+            <tr>
+                <td>تپ کی چوڑائی کتنی ہے <br /> What is the width of the tap?</td>
+                <td><input type="number" placeholder="1.5" id="tap_ki_chorai"></td>
+            </tr>
+            <tr>
+                <td>پنا کی چوڑائی کتنی ہے <br /> What is the width of the panna?</td>
+                <td><input type="number" placeholder="80" id="pana_kitna_ha"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="myfunction()">Calculator</button></td>
+
+            </tr>
+        </table>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
